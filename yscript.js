@@ -108,3 +108,8 @@ function showPopup(buttonElement) {
 function hidePopup() {
   document.getElementById("popupOverlay").style.display = "none";
 }
+
+function closePopup() {
+  document.getElementById("popupOverlay").style.display = "none";
+}
+
