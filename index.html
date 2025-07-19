@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Workday Decode</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- ======= HEADER / NAV ======= -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Workday Decode</div>
+      <div class="hamburger" id="hamburger">
+        &#9776;
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        
+          <li class="dropdown"><a href="#">All Courses</a>
+
+          <ul class="dropdown-content">
+            <li><a href="workday-hcm.html" target="_blank">Workday HCM</a></li>
+            <li><a href="workday-recruitment.html" target="_blank">Workday Recruitment</a></li>
+            <li><a href="workday-reporting.html" target="_blank">Workday Reporting</a></li>
+            <li><a href="workday-masterclass.html" target="_blank">Workday Master Class</a></li>
+		<li><a href="workday-hcm.html" target="_blank">Workday Sec</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======= HOME SECTION ======= -->
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>Welcome to Workday Decode</h1>
+      <p>Your gateway to mastering Workday HCM, Reporting, and Recruitment.</p>
+    </div>
+  </section>
+
+  <!-- ======= ABOUT SECTION ======= -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      At Workday Decode, we provide full-fledged training on core Workday modules including Workday HCM, Recruitment, Workday Reporting, and the advanced Workday Master Class. Our focus is to empower learners with deep, real-world knowledge from certified professionals in HR technology.
+    </p>
+	<div class="experts-intro">
+  <h3>👨‍🏫 Meet Our Experts</h3>
+  <p>Learn from industry leaders with real-world Workday experience, guiding you through every step of your learning journey.</p>
+</div>
+
+    <div class="experts">
+      <!-- Krish -->
+      <div class="expert-card">
+        <div class="avatar">
+          <img src="https://api.dicebear.com/8.x/adventurer-neutral/svg?seed=Krish" alt="Krish Ahuja">
+        </div>
+        <h3>Krish Ahuja</h3>
+        <p>Certified Workday HCM, Recruiting & Security Consultant</p>
+        <div class="expert-hover">
+          <p>10+ Years of Experience</p>
+          <p>Expert in Workday HCM, Recruiting & Workday Security</p>
+          <button class="view-more-btn" onclick="showPopup(this)" data-expert="krish">View More</button>
+
+        </div>
+      </div>
+	
+
+
+      <!-- Satish -->
+      <div class="expert-card">
+        <div class="avatar">
+          <img src="images/satyam.png" alt="Satish Bansal">
+        </div>
+        <h3>Satish Bansal</h3>
+        <p>Certified Workday HCM & Reporting Consultant</p>
+        <div class="expert-hover">
+          <p>7+ Years of Experience</p>
+          <p>Expert in Workday HCM, Reporting & Workday Documents</p>
+ 	  <button class="view-more-btn" onclick="showPopup(this)" data-expert="satish">View More</button>
+
+        </div>
+
+      </div>
+	
+<!-- Anvi -->
+<div class="expert-card">
+  <div class="avatar">
+    <img src="images/avni.jpg" alt="Anvi Kaushik">
+  </div>
+  <h3 class="expert-name">Anvi Kaushik</h3>
+  <p>Certified Workday HCM & Security Consultant</p>
+  
+  <!-- Hover Panel -->
+  <div class="expert-hover">
+    <p>9+ Years of Experience</p>
+    <p>Expert in Workday HCM, Security, Talent & Performance</p>
+    <button class="view-more-btn" onclick="showPopup(this)" data-expert="anvi">View More</button>
+
+  </div>
+</div>
+
+<!-- Single Reusable Popup Modal (Place at the END of About Section) -->
+<div class="popup-overlay" id="popupOverlay" onclick="hidePopup()">
+  <div class="popup-box" id="popupBox" onclick="event.stopPropagation()">
+    <span class="close-btn" onclick="hidePopup()">&times;</span>
+    <div id="popupContent">
+      <p>Popup content goes here</p>
+    </div>
+  </div>
+</div>
+</section> <!-- Close ABOUT section here 
+
+
+  <!-- ======= CONTACT SECTION ======= -->
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@workdaydecode.com</p>
+    <p>Phone: +91-7667553255</p>
+  </section>
+
+  <script src="yscript.js"></script>
+</body>
+</html>
